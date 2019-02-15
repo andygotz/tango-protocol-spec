@@ -6,9 +6,31 @@
 Welcome to Tango Controls Protocol Sepcification's documentation!
 =================================================================
 
+This documentation aims to formally describe Tango Controls Protocol.
+
+It SHELL provide a level of details which is enough to implement the Tango Controls Protocol on top of any suitable
+transport layer.
+
+To rich the goal it SHELL provide description of semantic and behaviour of Tango Controls System actors, objects
+and concepts. The specification MUST define specific data structures as well.
+
+The main concept of Tango Controls is :term:`Device` and the Tango Controls Protocol MUST provid marshaling
+of :term:`Device` objects. However, it SHELL not specify data structures serialisation as this belongs to
+a transport layer.
+
+
+
+
+Preamble
+--------
+TO-DO: Add references to RFCs
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   tango-controls-system
 
 
 
