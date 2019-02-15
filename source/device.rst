@@ -4,7 +4,7 @@ Device
 Goal
 ----
 
-This document describes core concept of Tango Controls which is `Device`.
+This document describes the core concept of Tango Controls which is `Device`.
 
 
 Definition
@@ -13,16 +13,16 @@ Definition
 .. glossary::
 
    Device
-       A Device is an object within the Tango Controls System. Device SHELL be accessible locally and remotely through
+       A Device is an object within the Tango Controls System. The Device SHELL be accessible locally and remotely through
        its interface.
 
-       The Device SHELL
+       Before accessign the Device it SHELL be created by/within a term:`Device Server`... 
 
        The Device has `device_name`. `device_name` is a character string which SHELL uniquely identify the device within
        the system :term:`Tango Controls System`.
 
        .. todo::
-          Extend the above
+          Extend the above (device cration, life, deletion), formal specification of device name as domain/subdomain/device, ... 
 
        Device SHELL provide way to read its:
 
