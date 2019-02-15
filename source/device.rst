@@ -23,7 +23,6 @@ Goal of this document is to describe Tango Controls terminology related to devic
        * `description`
        * `device_info`
 
-       Device MUST provide information on its dev
 
        Device SHELL implement an interface to interact with its:
 
