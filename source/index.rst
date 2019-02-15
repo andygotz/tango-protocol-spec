@@ -6,6 +6,11 @@
 Welcome to Tango Controls Protocol Sepcification's documentation!
 =================================================================
 
+:status:`draft, WIP`
+
+Goal
+----
+
 This documentation aims to formally describe Tango Controls Protocol.
 
 It SHELL provide a level of details which is enough to implement the Tango Controls Protocol on top of any suitable

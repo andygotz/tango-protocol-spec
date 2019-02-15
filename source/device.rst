@@ -1,15 +1,14 @@
-
 Device
 ======
 
 Goal
 ----
 
-Goal of this document is to describe Tango Controls terminology related to device concept.
+This document describes core concept of Tango Controls which is `Device`.
 
 
-Device  Semantics
------------------
+Definition
+----------
 
 .. glossary::
 

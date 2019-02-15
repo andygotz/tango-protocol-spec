@@ -1,18 +1,26 @@
-Tango Controls system
----------------------
+Tango Controls System
+=====================
 
 :status:`draft`
 
 Goal
 ----
 
-Goal of this document is to describe top-level semantics and qualities of Tango Controls System
+This document describes top-level semantics and qualities of Tango Controls System.
+
+Definition
+----------
 
 .. glossary::
 
    Tango Controls System
 
-      Tango Controls system consists of set of
+      Tango Controls System SHELL allow to remotely control and monitor devices and systems by means of computer
+      workstations, servers and network.
+      It SHELL allow to read and write so called process variables as well as monitor and influence
+      state of devices and systems. It SHELL also provide monitoring and management of itself.
+
+      Tango Controls system consists of sets of:
 
       * Device Servers (`device_server`)
       * Clients (`client`)
@@ -24,7 +32,7 @@ Goal of this document is to describe top-level semantics and qualities of Tango 
       * MUST be based on concept of :term:`Device`
       * MAY be based on micro-services architecture
 
-      Below is a formal definition of the Tango Controls System. The datai
+      Below is a formal definition of the Tango Controls System.
 
       .. code-block:: abnf
 
@@ -39,7 +47,5 @@ Goal of this document is to describe top-level semantics and qualities of Tango 
          access_control = device ;where device provides functionality to manage access to Tango Controls System
 
          admin_device = device ;where device provided functionality to manage a device_server it belongs to and devices instantiated by this device_server
-
-
 
 
