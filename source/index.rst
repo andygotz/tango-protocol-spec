@@ -31,6 +31,8 @@ TO-DO: Add references to RFCs
    :caption: Contents:
 
    tango-controls-system
+   device
+   device-server
 
 
 

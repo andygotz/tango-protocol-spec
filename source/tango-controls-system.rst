@@ -16,11 +16,13 @@ Goal of this document is to describe top-level semantics and qualities of Tango 
       * `device_servers`
       * `clients`
 
-      Tango Controls System MUST be:
-      *
+      Tango Controls System MUST:
+      * be object oriented
+      * be based on client-server architecture
+      * allow for micro-services architecture
 
 
-      .. code-block::abnf
+      .. code-block:: abnf
 
          tango_controls_system = *device_server *client [tango_database] [access_control]
 

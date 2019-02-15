@@ -1,6 +1,6 @@
 
-Device semantics specification
-==============================
+Device
+======
 
 Goal
 ----
@@ -34,7 +34,7 @@ Goal of this document is to describe Tango Controls terminology related to devic
        * :term:`Polling system <Polling>` as `polling_interface`
        * :term:`Events system <Events>` as `events_interface`
 
-       .. code-block::abnf
+       .. code-block:: abnf
 
           ; device object description
           device = device_name [device_description] device_class device_state device_status admin_device
@@ -50,7 +50,7 @@ Goal of this document is to describe Tango Controls terminology related to devic
 
 
    Attribute
-        .. code-block::abnf
+        .. code-block:: abnf
 
            attribute = attribute_config attribute_value attribute_dim
 
