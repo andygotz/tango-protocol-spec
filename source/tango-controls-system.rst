@@ -42,10 +42,10 @@ Definition
          ; Device Server instantiate admin_devcie and other devices
          device_server = admin_device *device
 
-         tango_database = device ;where device is providing functionality of Tango Database
+         tango_database = device ;where device provides functionality of Tango Database
 
          access_control = device ;where device provides functionality to manage access to Tango Controls System
 
-         admin_device = device ;where device provided functionality to manage a device_server it belongs to and devices instantiated by this device_server
+         admin_device = device ;where device provides functionality to manage a device_server it belongs to and devices instantiated by this device_server
 
 
