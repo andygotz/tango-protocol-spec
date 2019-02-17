@@ -4,7 +4,7 @@ Device
 Goal
 ----
 
-This document describes core concept of Tango Controls which is `Device`.
+This document describes the core concept of Tango Controls which is `Device`.
 
 
 Definition
@@ -13,18 +13,18 @@ Definition
 .. glossary::
 
    Device
-       A Device is an object within the Tango Controls System. Device SHELL be accessible locally and remotely through
+       A Device is an object within the Tango Controls System. Device SHALL be accessible locally and remotely through
        its interface.
 
-       The Device SHELL
+       The Device SHALL
 
-       The Device has `device_name`. `device_name` is a character string which SHELL uniquely identify the device within
+       The Device has `device_name`. `device_name` is a character string which SHALL uniquely identify the device within
        the system :term:`Tango Controls System`.
 
        .. todo::
           Extend the above
 
-       Device SHELL provide way to read its:
+       Device SHALL provide way to read its:
 
        * `device_name`
        * `description`
@@ -32,7 +32,7 @@ Definition
 
 
 
-       Device SHELL implement an interface to interact with its:
+       Device SHALL implement an interface to interact with its:
 
        * :term:`Attributes <Attribute>` as `device_attributes_interface`
        * :term:`Pipes <Pipe>` as `device_pipes_interface`
@@ -52,7 +52,7 @@ Definition
 
                    device_polling_interface device_events_interface
 
-       `device_attributes_interface` SHELL allow for the following operations:
+       `device_attributes_interface` SHALL allow for the following operations:
 
        * `query_device_attributes_list`
 
@@ -68,7 +68,7 @@ Definition
 
    Attribute
 
-        Attribute is a concept related to process variables. It provides real-time data value of specified datatype
+        An attribute is a concept related to process variables. It provides real-time data value of specified datatype
 
         .. code-block:: abnf
 

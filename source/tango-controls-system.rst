@@ -15,10 +15,10 @@ Definition
 
    Tango Controls System
 
-      Tango Controls System SHELL allow to remotely control and monitor devices and systems by means of computer
+      Tango Controls System SHALL allow to remotely control and monitor devices and systems by means of computer
       workstations, servers and network.
-      It SHELL allow to read and write so called process variables as well as monitor and influence
-      state of devices and systems. It SHELL also provide monitoring and management of itself.
+      It SHALL allow to read and write so-called process variables as well as monitor and influence
+      state of devices and systems. It SHALL also provide monitoring and management of itself.
 
       Tango Controls system consists of sets of:
 
@@ -27,10 +27,10 @@ Definition
 
       Tango Controls System:
 
-      * MUST be object oriented
-      * MUST be based on client-server architecture
+      * MUST be object-oriented
+      * MUST implement the client-server architecture
       * MUST be based on concept of :term:`Device`
-      * MAY be based on micro-services architecture
+      * MAY be based on the micro-services architecture
 
       Below is a formal definition of the Tango Controls System.
 

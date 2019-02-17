@@ -11,16 +11,16 @@ Welcome to Tango Controls Protocol Sepcification's documentation!
 Goal
 ----
 
-This documentation aims to formally describe Tango Controls Protocol.
+This documentation aims to describe Tango Controls Protocol formally.
 
-It SHELL provide a level of details which is enough to implement the Tango Controls Protocol on top of any suitable
+It SHALL provide a level of details which is enough to implement the Tango Controls Protocol on top of any suitable
 transport layer.
 
-To rich the goal it SHELL provide description of semantic and behaviour of Tango Controls System actors, objects
+To rich the goal, it SHALL describe semantic and behaviour of Tango Controls System's actors, objects
 and concepts. The specification MUST define specific data structures as well.
 
-The main concept of Tango Controls is :term:`Device` and the Tango Controls Protocol MUST provide marshaling
-of :term:`Device` objects. However, it SHELL not specify data structures serialisation as this belongs to
+The central concept of Tango Controls is :term:`Device` and the Tango Controls Protocol MUST provide marshalling
+of :term:`Device` objects. However, it SHALL not specify data structures serialisation as this belongs to
 a transport layer.
 
 Preamble
