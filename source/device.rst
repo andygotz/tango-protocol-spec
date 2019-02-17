@@ -13,16 +13,16 @@ Definition
 .. glossary::
 
    Device
-       A Device is an object within the Tango Controls System. Device SHALL be accessible locally and remotely through
+       A Device is an object within the Tango Controls System. The Device SHALL be accessible locally and remotely through
        its interface.
 
-       The Device SHALL
+       Before accessign the Device it SHALL be created by/within a :term:`Device Server`...
 
        The Device has `device_name`. `device_name` is a character string which SHALL uniquely identify the device within
        the system :term:`Tango Controls System`.
 
        .. todo::
-          Extend the above
+          Extend the above (device cration, life, deletion), formal specification of device name as domain/subdomain/device, ...
 
        Device SHALL provide way to read its:
 
